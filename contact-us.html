@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+	<style>
+        body {
+             background-color: #FAEBD7;
+	         border-left: 150px #A52A2A;
+	         border-right: 150px #A52A2A;
+             }
+
+        h3 {
+             font-size: 5.3rem;
+	         color: #A52A2A;
+	         margin-bottom: 3rem;
+            }
+    </style>
+</head>
+<body>
+    <h3>Contact us</h3>
+	<form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-us.php">
+	        <label for="Name" class="fcf-label">Please enter your name</label>
+			<div class="fcf-input-group">
+			     <input type="text" id="Please enter your name" name="name" class="fcf-form-control" required>
+			</div>
+		<div class="fcf-form-group">
+		    <label for="Please enter your email" class="fcf-label">Your email address</label>
+			<div class="fcf-input-group">
+			    <input type="email" id="Please enter your email" name="email" class="fcf-form-control" required>
+			</div>
+		<div class="fcf-form-group">
+		    <label for="Your message" class="fcf-label">Your message</label>
+			<div class="fcf-input-group">
+			    <textarea id="Your message" name="message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+			</div>
+		</div>
+		<div class="fcf-form-group">
+		    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+		</div>
+		
+	<footer>
+        <p>@All Copyrights Reserved 2022</p>
+    </footer>
+	
+</body>
+</html>
